@@ -1,55 +1,51 @@
 # 📝 Flask Todo App
 
-Ứng dụng Todo nhỏ được viết bằng **Flask** để thực hành kiến trúc backend cơ bản, CRUD và template dùng Jinja.  
-Ứng dụng gồm:
+A small Todo application built with **Flask** to practice backend fundamentals, CRUD operations, routing, and rendering templates using Jinja2. The app provides a Home page for listing and creating tasks, and a separate Update page for editing existing tasks. Data is persisted locally using SQLite via SQLAlchemy ORM.
 
-- Trang **Home**: xem danh sách task + tạo task
-- Trang **Update** riêng để chỉnh sửa task
-- Lưu trữ bằng SQLite thông qua SQLAlchemy
+The application includes:
+
+- **Home** page: view task list + create tasks
+- **Update** page dedicated to editing tasks
+- Storage using SQLite via SQLAlchemy
 
 ---
 
-## 🚀 Demo giao diện
+## 🚀 UI Demo
 
 ### 🏠 Home page
-<p align="center">
-  <img src="./screenshots/home.png" width="600">
-</p>
+<img width="2551" height="1340" alt="Screenshot 2026-01-19 210227" src="https://github.com/user-attachments/assets/a1175810-b9c6-4126-a065-d9e677b50baa" />
 
 ### ✏️ Update page
-<p align="center">
-  <img src="./screenshots/update.png" width="600">
-</p>
+<img width="2557" height="1345" alt="Screenshot 2026-01-19 210255" src="https://github.com/user-attachments/assets/cf277c8e-c719-4868-9272-8772def4dd47" />
 
 ---
 
-## ✨ Tính năng
+## ✨ Features
 
-✔ Tạo task  
-✔ Xem danh sách task  
-✔ Xóa task  
-✔ Update task tại trang riêng  
-✔ Lưu trữ bằng SQLite  
-✔ Jinja2 template view  
+✔ Create tasks
+✔ List all tasks
+✔ Delete tasks
+✔ Edit tasks on a dedicated update page
+✔ Persist data with SQLite
+✔ Rendered using Jinja2 templates  
 
 ---
 
-## 🧱 Công nghệ sử dụng
+## 🧱 Tech Stack
 
-| Component | Công nghệ |
+| Component | Technology |
 |---|---|
 | Backend | Flask |
 | Database | SQLite + SQLAlchemy |
 | Template | Jinja2 |
-| Auth | (tùy) JWT nếu bật |
-| UI | HTML + CSS đơn giản |
+| Auth | (optional) JWT support |
+| UI | HTML + SCSS basic |
 
 ---
 
-## 📦 Cài đặt & chạy ứng dụng
+## 📦 Installation & Run
 
 ### 1️⃣ Clone repo
 
-```bash
 git clone https://github.com/yourname/flask-todo-app.git
 cd flask-todo-app
