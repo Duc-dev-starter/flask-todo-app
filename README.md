@@ -60,3 +60,5 @@ Update page
 
 The app will run at: http://127.0.0.1:5000/
 
+Read more in: https://www.notion.so/Flask-2e9b447ac1c4808c9b2df7b1eff3f1de?source=copy_link
+
