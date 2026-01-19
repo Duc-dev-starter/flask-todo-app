@@ -59,19 +59,3 @@ Update page
 
 The app will run at: http://127.0.0.1:5000/
 
-## 📁 Project Structure
-
-.  
-├── app.py
-├── templates/
-│   ├── index.html
-│   └── edit.html
-├── static/
-│   └── styles.css
-├── screenshots/
-└── requirements.txt
-
-## Optional: Next improvements
-- Add instructions for initializing the database (if applicable)
-- Add environment variable configuration (FLASK_APP, FLASK_ENV)
-- Provide a Dockerfile / docker-compose for easier setup
