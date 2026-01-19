@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+
+# Flask instance folder
+instance/
+*.db
+
+# OS
+.DS_Store
