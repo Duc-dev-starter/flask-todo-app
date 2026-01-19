@@ -1,69 +1,67 @@
-📝 Flask Todo App
+# 📝 Flask Todo App
 
-A small Todo application built with Flask to practice backend fundamentals, CRUD operations, routing, and rendering templates using Jinja2. The app provides a Home page for listing and creating tasks, and a separate Update page for editing existing tasks. Data is persisted locally using SQLite via SQLAlchemy ORM.
+A small Todo application built with Flask to practice backend fundamentals: CRUD operations, routing, and rendering templates with Jinja2. The app provides a Home page to list and create tasks and a dedicated Update page to edit tasks.
 
-The application includes:
+## ✨ Features
+- Create tasks
+- List all tasks
+- Delete tasks
+- Edit tasks on a dedicated update page
+- Persist data with SQLite (SQLAlchemy)
+- Rendered using Jinja2 templates
 
-Home page: view task list + create tasks
+## 🚀 UI Demo
 
-Update page dedicated to editing tasks
+Home page  
+<img width="1200" alt="Home page" src="https://github.com/user-attachments/assets/a1175810-b9c6-4126-a065-d9e677b50baa" />
 
-Storage using SQLite via SQLAlchemy
+Update page  
+<img width="1200" alt="Update page" src="https://github.com/user-attachments/assets/cf277c8e-c719-4868-9272-8772def4dd47" />
 
-🚀 UI Demo
-🏠 Home page
-<img width="2551" height="1340" alt="Screenshot 2026-01-19 210227" src="https://github.com/user-attachments/assets/a1175810-b9c6-4126-a065-d9e677b50baa" />
-✏️ Update page
-<img width="2557" height="1345" alt="Screenshot 2026-01-19 210255" src="https://github.com/user-attachments/assets/cf277c8e-c719-4868-9272-8772def4dd47" />
-✨ Features
+## 🧱 Tech Stack
 
-✔ Create tasks
+| Component | Technology |
+|---|---|
+| Backend | Flask |
+| Database | SQLite + SQLAlchemy |
+| Template | Jinja2 |
+| Auth | (optional) JWT |
+| UI | HTML + SCSS (basic) |
 
-✔ List all tasks
+## 📦 Installation & Run
 
-✔ Delete tasks
+1) Clone the repo
 
-✔ Edit tasks on a dedicated update page
+    git clone https://github.com/Duc-dev-starter/flask-todo-app.git
+    cd flask-todo-app
 
-✔ Persist data with SQLite
+2) Set up environment
 
-✔ Rendered using Jinja2 templates
+- Create a virtual environment:
 
-🧱 Tech Stack
-Component	Technology
-Backend	Flask
-Database	SQLite + SQLAlchemy
-Template	Jinja2
-Auth	(optional) JWT support
-UI	HTML + SCSS basic
-📦 Installation & Run
-1️⃣ Clone repo
-git clone https://github.com/yourname/flask-todo-app.git
-cd flask-todo-app
+    python -m venv venv
 
-2️⃣ Setup Environment
-# Create virtual environment
-python -m venv venv
+- Activate (Windows):
 
-# Activate (Windows)
-venv\Scripts\activate
+    venv\Scripts\activate
 
-# Activate (macOS/Linux)
-source venv/bin/activate
+- Activate (macOS / Linux):
 
-# Install dependencies
-pip install -r requirements.txt
+    source venv/bin/activate
 
-3️⃣ Run the App
-flask run
+- Install dependencies:
 
+    pip install -r requirements.txt
 
-App will run at:
+3) Run the app
 
-👉 http://127.0.0.1:5000/
+    flask run
 
-📁 Project Structure
-.
+The app will run at: http://127.0.0.1:5000/
+
+## 📁 Project Structure
+
+.  
 ├── app.py
 ├── templates/
 │   ├── index.html
@@ -72,3 +70,8 @@ App will run at:
 │   └── styles.css
 ├── screenshots/
 └── requirements.txt
+
+## Optional: Next improvements
+- Add instructions for initializing the database (if applicable)
+- Add environment variable configuration (FLASK_APP, FLASK_ENV)
+- Provide a Dockerfile / docker-compose for easier setup
