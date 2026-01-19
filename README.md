@@ -30,30 +30,31 @@ Update page
 
 ## 📦 Installation & Run
 
-1) Clone the repo
+# 1) Clone the repo
 
     git clone https://github.com/Duc-dev-starter/flask-todo-app.git
+    
     cd flask-todo-app
 
-2) Set up environment
+# 2) Set up environment
 
-- Create a virtual environment:
+**- Create a virtual environment:**
 
     python -m venv venv
 
-- Activate (Windows):
+**- Activate (Windows):**
 
     venv\Scripts\activate
 
-- Activate (macOS / Linux):
+**- Activate (macOS / Linux):**
 
     source venv/bin/activate
 
-- Install dependencies:
+**- Install dependencies:**
 
     pip install -r requirements.txt
 
-3) Run the app
+# 3) Run the app
 
     flask run
 
