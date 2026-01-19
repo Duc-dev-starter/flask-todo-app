@@ -22,7 +22,7 @@ The application includes:
 
 ## ✨ Features
 
-✔ Create tasks
+✔ Create tasks␣␣
 ✔ List all tasks
 ✔ Delete tasks
 ✔ Edit tasks on a dedicated update page
@@ -49,3 +49,35 @@ The application includes:
 
 git clone https://github.com/yourname/flask-todo-app.git
 cd flask-todo-app
+
+
+🔧 Setup Environment
+# Create virtual environment
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (macOS/Linux)
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+▶️ Run the App
+flask run
+
+
+App will run at:
+👉 http://127.0.0.1:5000/
+
+📦 Project Structure
+.
+├── app.py
+├── templates/
+│   ├── index.html
+│   └── edit.html
+├── static/
+│   └── styles.css
+├── screenshots/
+└── requirements.txt
